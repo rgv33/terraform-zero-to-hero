@@ -30,3 +30,4 @@ resource "aws_instance" "my_instance" {
     Secret = data.vault_kv_secret_v2.example.data["foo"]
   }
 }
+//adding sample tf file
